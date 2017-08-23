@@ -3,7 +3,7 @@
 set nocompatible
 
 " allow backspacing over everything in insert mode 
-set backspace=indent, eol, start
+set backspace=indent,eol,start
 
 set number		"line numbers
 set ruler		"show the cursor position all the time
@@ -13,3 +13,5 @@ set linebreak		"wrap lines on 'word' boundaries
 set hlsearch		"dunno
 
 syntax on
+
+set mouse=a		"something about enabling the mouse
